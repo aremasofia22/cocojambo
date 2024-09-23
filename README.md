@@ -13,4 +13,4 @@
 
 # якшо Ви цн бачите, то наче вийшло)
 
-![йой, я сильний програміст, та ти шо))) ](https://www.google.com/url?sa=i&url=https%3A%2F%2Fvsviti.com.ua%2Fnews%2F138021&psig=AOvVaw3iplRtooztE1fQLCjOHmVb&ust=1727174204399000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiXx7vv2IgDFQAAAAAdAAAAABAJ)
+![йой, я сильний програміст, та ти шо))) ](https://i.ytimg.com/vi/kHmLYrObzmM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAD5aLRQNPZUPOEgGexx2z2thk2WQ)
