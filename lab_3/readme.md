@@ -14,8 +14,8 @@
 
 **Результати виконання завдання N_1:**
 
-- 1.  Попрацювала з різними типами даних та спробувала їх вивести:
-      ![типи даних](/Users/sofiayarema/cocojambo-1/lab_3/pictures/1.png)
+- 1.  Ввід:
+      ![code](/Users/sofiayarema/cocojambo-1/lab_3/pictures/1.png)
 - 2.  Метод arange
       ![code](/Users/sofiayarema/cocojambo-1/lab_3/pictures/2.png)
 - 3.  Метод linspace:
