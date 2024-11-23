@@ -32,6 +32,8 @@
       ![code](/workspaces/cocojambo/lab_4/pictures/8.png)
 - 9. Створюю декілька простих Векторів та Матриць та виведжу їх розмірність. Виконую арифметичні операції над створеними Векторам/Матрицями;
       ![code](/workspaces/cocojambo/lab_4/pictures/9.png)
+- 10. Графік:
+![code](/workspaces/cocojambo/lab_4/pictures/grafic.png)
 ---
 
 ### Висновок:
