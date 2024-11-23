@@ -41,11 +41,7 @@
       ![code](/Users/sofiayarema/cocojambo-1/lab_3/pictures/вектори.png)
 - 10. Арифметичні операції над векторами та матрицями
       ![code](/Users/sofiayarema/cocojambo-1/lab_3/pictures/арифметичні_операції.png)
-      ![code]()
-      ![code]()
 
-**Результати виконання завдання N_2 (приклади ChatGPT):**
-![code](/Users/sofiayarema/cocojambo/cocojambo-1/lab_2/pictures/task2.png)
 
 ---
 
