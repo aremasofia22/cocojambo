@@ -12,10 +12,10 @@
 
 ### Виконання роботи
 
-**Результати виконання**
+**Результати**
 
 - 1.  Визначення однорідного масиву:
-      ![типи даних](/workspaces/cocojambo/lab_4/pictures/1.png)
+      ![code](/workspaces/cocojambo/lab_4/pictures/1.png)
 - 2.  Задаємо свій тип даних
       ![code](/workspaces/cocojambo/lab_4/pictures/2.png)
 - 3.  Запис та зчитування з файлу, формат CSV:
