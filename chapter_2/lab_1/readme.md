@@ -10,6 +10,8 @@
 
 **Результати**
 
+## Основи роботи з сторонніми бібліотеками
+
 - 2.  Перевірка, які бібліотеки вже інстальовані на компютері:
       ![checking](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/2.png)
 - 4.  результат виконання команд
@@ -18,9 +20,14 @@
       ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/5.png)
 - 7.  результат виконання команд:
       ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/7.png)
-- 8.  ![code](/workspaces/cocojambo/lab_4/pictures/7.png)
+      ![code](/workspaces/cocojambo/lab_4/pictures/7.png)
+- 9. Запуск програми:
+     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/9.png)
+     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/9_1.png)
 
 ---
+
+## Робота у віртуальному середовищі
 
 ### Висновок:
 
