@@ -22,15 +22,15 @@
       ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/7.png)
       ![code](/workspaces/cocojambo/lab_4/pictures/7.png)
 - 9. Запуск програми:
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/9.png)
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/9_1.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/9.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/9_1.png)
 
 ---
 
 ## Робота у віртуальному середовищі
 
 - 3. Результати: Команда pip show requests показала, що пакет requests версії 2.32.3 встановлений у системі за шляхом /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages. Він використовується для HTTP-запитів у Python, має ліцензію Apache-2.0, автор Kenneth Reitz, та залежить від certifi, charset-normalizer, idna, urllib3. Крім того, його використовують jikanpy-v4 та jupyterlab_server.
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph3.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph3.png)
 
 ## Робота з Pipenv
 
@@ -39,16 +39,16 @@
 - 4.  Pipfile and Pipfile.lock
       **Pipfile і Pipfile.lock — це файли для керування залежностями в Python-проєктах, які використовують pipenv.**
       **Ці файли допомагають легко встановлювати та оновлювати пакети, забезпечуючи однакові версії залежностей на різних машинах.**
-      ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph4.png)
-      ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph4.png)
+      ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph4.png)
+      ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph4.png)
 - 6. Результати:
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph6.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph6.png)
 - 7. Результати:
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph7.1.png)
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph7.2.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph7.1.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph7.2.png)
 - 9. Результати:
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph9.png)
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph9.1.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph9.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task2_ph9.1.png)
 
 ## Робота зі змінними середовища
 
@@ -57,11 +57,11 @@
 ## Робота з Poetry
 
 - 4. Результати:
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task3_ph4.png)
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task3_ph4.1.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task3_ph4.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task3_ph4.1.png)
 
 - 7. Результати:
-     ![code] (/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task7_ph7.png)
+     ![code](/Users/sofiayarema/cocojambo-2/chapter_2/lab_1/pictures/task7_ph7.png)
 
 ### Висновок:
 
