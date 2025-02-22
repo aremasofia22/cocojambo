@@ -1,0 +1,17 @@
+poetry.lock
+myproject/tests/__init__.py
+myproject/src/myproject/__init__.py
+chapter_2/myproject/src/myproject/__init__.py
+chapter_2/README.md
+chapter_2/task7.py
+chapter_2/task.py
+chapter_2/task2.py
+chapter_2/myproject/tests/__init__.py
+myproject/README.md
+chapter_2/poetry.lock
+chapter_2/Pipfile
+README.md
+pyproject.toml
+chapter_2/.env
+chapter_2/Pipfile.lock
+chapter_2/pyproject.toml
