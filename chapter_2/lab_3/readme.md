@@ -10,28 +10,11 @@
 
 **Результати**
 
-- 2. Створюю власний крок assert та роблю тестові превірки при введенні даних з клавіатури:
-      ![checking](/workspaces/hobreirepository/sem2/lab2/pictures/2.png)
+## Створення декількох Workflow або завдань
+- 1. Створіть свої завдання та виконайте їх. Представте скріншот з результатами:
+      ![checking](chapter_2/lab_3/pictures/1.png)
 
-## Юніт тести
 
-- 3. ![code](/workspaces/hobreirepository/sem2/lab2/pictures/3.1.png)
-- 6. виконую завдання:
-     ![code](/workspaces/hobreirepository/sem2/lab2/pictures/6.1.png)
-     ![code](/workspaces/hobreirepository/sem2/lab2/pictures/6.2.png)
-
-## Юніт тести з використання бібліотеки PyTest
-- 3.  ![code](/workspaces/hobreirepository/sem2/lab2/pictures/3.1.1.png)
-
-## Візуалізація результатів та покриття коду Coverage (pytest-cov)
-
-- 4.  ![code](/workspaces/hobreirepository/sem2/lab2/pictures/coverage1.png)
-      ![code](/workspaces/hobreirepository/sem2/lab2/pictures/coverage2.png)
-      ![code](/workspaces/hobreirepository/sem2/lab2/pictures/coverage3.png)
-      ![code](/workspaces/hobreirepository/sem2/lab2/pictures/coverage4.png)
-       ![code](/workspaces/hobreirepository/sem2/lab2/pictures/coverage5.png)
-      
----
 
 ### Висновок:
 
