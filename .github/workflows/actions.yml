@@ -26,7 +26,7 @@ jobs:
     - name: Run tests
       run: |
         cd chapter_2/lab_2
-        pytest *.py -v
+        pytest -v
 
     - name: Generate Report
       run: |
