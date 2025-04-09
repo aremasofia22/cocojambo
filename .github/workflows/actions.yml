@@ -1,40 +1,40 @@
-name: Python CI Workflow
+name: actions
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  test-and-coverage:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
 
-      # встановлюємо Python пакети
-      - name: Install dependencies
-        run: |
-          pip install pytest coverage
+    - name: Install dependencies
+      run: |
+        pip install pytest coverage
 
-      # запускаємо тести
-      - name: Run tests
-        run: |
-          cd example/coverage_io/
-          pytest test.py -v
+    - name: Run tests
+      run: |
+        cd chapter_2/lab_2
+        pytest *.py -v
 
-      # генеруємо звіт
-      - name: Generate Report
-        run: |
-          cd example/coverage_io/
-          coverage run -m unittest -v
-          coverage xml
+    - name: Generate Report
+      run: |
+        cd chapter_2/lab_2
+        coverage run -m unittest discover -v
+        coverage xml
 
-      # надсилаємо звіт в Codecov
-      - name: Upload Coverage to Codecov
-        uses: codecov/codecov-action@v3
-        with:
-          directory: example/coverage_io/
+    - name: Upload Coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        directory: chapter_2/lab_2
