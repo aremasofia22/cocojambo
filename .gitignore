@@ -5,3 +5,7 @@ chapter_2/myproject/src/myproject/__init__.py
 chapter_2/myproject/tests/__init__.py
 
 
+chapter_2/lab_2/test_figure.py
+chapter_2/lab_2/test-app.py
+chapter_2/lab_2/test1.py
+chapter_2/lab_2/tests.py

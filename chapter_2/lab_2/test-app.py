@@ -61,39 +61,39 @@
 # from random import choice, randint
 # from app import Figure  # імпорт класу Figure з app.py
 
-import unittest
-from random import choice, randint
+# import unittest
+# from random import choice, randint
 
 
-class TestFigure(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        """Виконується лише раз на початку тестів"""
-        pass
+# class TestFigure(unittest.TestCase):
+#     @classmethod
+#     def setUpClass(cls):
+#         """Виконується лише раз на початку тестів"""
+#         pass
 
-    def setUp(self) -> None:
-        """Виконується кожного разу, коли запускається тест"""
-        self.figure = choice(Figure.FIGURES)  # Вибір випадкової фігури
-        self.length = randint(1, 10)  # Випадкова довжина від 1 до 10
-        self.obj = Figure(self.figure, self.length)
-        super().setUp()
+#     def setUp(self) -> None:
+#         """Виконується кожного разу, коли запускається тест"""
+#         self.figure = choice(Figure.FIGURES)  # Вибір випадкової фігури
+#         self.length = randint(1, 10)  # Випадкова довжина від 1 до 10
+#         self.obj = Figure(self.figure, self.length)
+#         super().setUp()
 
-    def tearDown(self) -> None:
-        """Виконується після кожного тесту"""
-        del self.obj
-        super().tearDown()
+#     def tearDown(self) -> None:
+#         """Виконується після кожного тесту"""
+#         del self.obj
+#         super().tearDown()
 
-    def test_figure_type(self):
-        self.assertEqual(self.figure, self.obj.get_figure_type(),
-                         "Метод get_figure_type повертає неправильну фігуру!")
+#     def test_figure_type(self):
+#         self.assertEqual(self.figure, self.obj.get_figure_type(),
+#                          "Метод get_figure_type повертає неправильну фігуру!")
 
-    def test_figure_length(self):
-        self.assertEqual(self.length, self.obj.get_figure_length(),
-                         "Метод get_figure_length повертає неправильну довжину!")
+#     def test_figure_length(self):
+#         self.assertEqual(self.length, self.obj.get_figure_length(),
+#                          "Метод get_figure_length повертає неправильну довжину!")
 
-    def test_invalid_figure(self):
-        with self.assertRaises(ValueError):
-            Figure("коло", 1)
+#     def test_invalid_figure(self):
+#         with self.assertRaises(ValueError):
+#             Figure("коло", 1)
 
 
 # class Figure:

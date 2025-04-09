@@ -35,32 +35,32 @@
 
 
 # 6 завдання
-class Name:
-    def __init__(self, name, hobby) -> None:
-        # Перевірка імені
-        if name not in ["Богдан", "Анонім", "sofia"]:
-            raise ValueError("Дозволені імена: Богдан, Анонім, sofia")
+# class Name:
+#     def __init__(self, name, hobby) -> None:
+#         # Перевірка імені
+#         if name not in ["Богдан", "Анонім", "sofia"]:
+#             raise ValueError("Дозволені імена: Богдан, Анонім, sofia")
 
-        # Перевірка хобі
-        if not hobby:
-            raise ValueError("Хобі не може бути порожнім!")
+#         # Перевірка хобі
+#         if not hobby:
+#             raise ValueError("Хобі не може бути порожнім!")
 
-        self.name = name
-        self.hobby = hobby
+#         self.name = name
+#         self.hobby = hobby
 
 
-try:
-    a = Name("Бодько", "шахи")
-except ValueError as e:
-    print(e)
+# try:
+#     a = Name("Бодько", "шахи")
+# except ValueError as e:
+#     print(e)
 
-try:
-    b = Name("sofia", "")
-except ValueError as e:
-    print(e)
+# try:
+#     b = Name("sofia", "")
+# except ValueError as e:
+#     print(e)
 
-try:
-    c = Name("sofia", "шахи")
-    print(f"Фігура створена: {c.name}, Хобі: {c.hobby}")
-except ValueError as e:
-    print(e)
+# try:
+#     c = Name("sofia", "шахи")
+#     print(f"Фігура створена: {c.name}, Хобі: {c.hobby}")
+# except ValueError as e:
+#     print(e)
