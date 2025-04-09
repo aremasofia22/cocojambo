@@ -14,6 +14,13 @@
 - 1. Створіть свої завдання та виконайте їх. Представте скріншот з результатами:
       ![checking](chapter_2/lab_3/pictures/1.png)
 
+- 2. Інтеграція з Coverage (Додатково)
+![alt text](pictures/2.png)
+
+- 3. Баджі та статуси
+![Manual workflow](https://github.com/aremasofia22/cocojambo/actions/workflows/actions.yml/badge.svg)
+
+- 4. [![codecov](https://codecov.io/gh/aremasofia22/cocojambo/graph/badge.svg?token=927JKWEEDJ)](https://codecov.io/gh/aremasofia22/cocojambo)
 
 
 ### Висновок:
