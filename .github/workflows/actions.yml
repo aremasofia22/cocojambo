@@ -1,40 +1,49 @@
-name: actions
+name: Python CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main  # змініть на вашу основну гілку
   pull_request:
-    branches: [ main ]
+    branches:
+      - main  # змініть на вашу основну гілку
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      # Крок для клонування репозиторію
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      # Встановлюємо Python
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
 
-    - name: Install dependencies
-      run: |
-        pip install pytest coverage
+      # Встановлюємо залежності
+      - name: Install dependencies
+        run: |
+          pip install pytest coverage
 
-    - name: Run tests
-      run: |
-        cd chapter_2/lab_2/test_figure.py
-        pytest -v
+      # Запуск тестів
+      - name: Run tests
+        run: |
+          pytest example/coverage_io/test.py -v
 
-    - name: Generate Report
-      run: |
-        cd chapter_2/lab_2/test_figure.py
-        coverage run -m unittest discover -v
-        coverage xml
+      # Генерація звіту покриття
+      - name: Generate Report
+        run: |
+          cd example/coverage_io/
+          coverage run -m unittest -v
+          coverage xml
 
-    - name: Upload Coverage to Codecov
-      uses: codecov/codecov-action@v3
-      with:
-        directory: chapter_2/lab_2/test_figure.py
+      # Відправка результатів в Codecov
+      - name: Upload Coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          directory: example/coverage_io/
+
+
