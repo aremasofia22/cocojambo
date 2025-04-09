@@ -3,10 +3,10 @@ name: Python CI
 on:
   push:
     branches:
-      - main  # змініть на вашу основну гілку
+      - main  
   pull_request:
     branches:
-      - main  # змініть на вашу основну гілку
+      - main  
 
 jobs:
   test:
