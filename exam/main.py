@@ -8,9 +8,7 @@ def sum_lists(list1, list2):
     
     return result
 
-# Якщо запускаємо main.py без імпорту з іншого файлу
 if __name__ == "__main__":
-    # Приклад виклику функції для демонстрації
     result = sum_lists([1, 2, 3], [4, 5, 6])
     print("Результат:", result)
 
